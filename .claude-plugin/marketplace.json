@@ -1,0 +1,29 @@
+{
+  "name": "catalog-distribution-trial",
+  "owner": {
+    "name": "Interventio Contextus"
+  },
+  "metadata": {
+    "description": "Trial: one repository serving both the Claude and the Codex marketplace."
+  },
+  "plugins": [
+    {
+      "name": "hello-catalog",
+      "source": "./plugins/hello-catalog",
+      "description": "Trial plugin: checks that one repository serves both Claude and Codex marketplaces.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "withdrawn-sample",
+      "source": "./plugins/withdrawn-sample",
+      "description": "Trial plugin shaped like a withdrawn skill (SKILL.md only).",
+      "version": "0.2.0"
+    },
+    {
+      "name": "broken-sample",
+      "source": "./plugins/broken-sample",
+      "description": "Trial plugin whose SKILL.md has no frontmatter: does one bad plugin stop the whole import?",
+      "version": "0.1.0"
+    }
+  ]
+}
