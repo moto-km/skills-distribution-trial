@@ -1,0 +1,15 @@
+{
+  "name": "broken-sample",
+  "version": "0.1.0",
+  "description": "Trial plugin whose SKILL.md has no frontmatter: does one bad plugin stop the whole import?",
+  "author": {
+    "name": "Interventio Contextus"
+  },
+  "interface": {
+    "displayName": "Broken Sample (trial)",
+    "shortDescription": "Trial plugin whose SKILL.md has no frontmatter: does one bad plugin stop the whole import?",
+    "developerName": "Interventio Contextus",
+    "category": "Productivity"
+  },
+  "skills": "./skills/"
+}

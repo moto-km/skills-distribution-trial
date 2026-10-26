@@ -1,0 +1,44 @@
+{
+  "name": "catalog-distribution-trial",
+  "interface": {
+    "displayName": "Catalog Distribution Trial"
+  },
+  "plugins": [
+    {
+      "name": "hello-catalog",
+      "source": {
+        "source": "local",
+        "path": "./plugins/hello-catalog"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "withdrawn-sample",
+      "source": {
+        "source": "local",
+        "path": "./plugins/withdrawn-sample"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "broken-sample",
+      "source": {
+        "source": "local",
+        "path": "./plugins/broken-sample"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

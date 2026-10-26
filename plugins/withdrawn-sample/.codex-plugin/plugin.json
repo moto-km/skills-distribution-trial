@@ -1,0 +1,15 @@
+{
+  "name": "withdrawn-sample",
+  "version": "0.2.0",
+  "description": "Trial plugin shaped like a withdrawn skill (SKILL.md only).",
+  "author": {
+    "name": "Interventio Contextus"
+  },
+  "interface": {
+    "displayName": "Withdrawn Sample (trial)",
+    "shortDescription": "Trial plugin shaped like a withdrawn skill (SKILL.md only).",
+    "developerName": "Interventio Contextus",
+    "category": "Productivity"
+  },
+  "skills": "./skills/"
+}

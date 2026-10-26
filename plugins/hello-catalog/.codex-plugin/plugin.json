@@ -1,0 +1,15 @@
+{
+  "name": "hello-catalog",
+  "version": "0.1.0",
+  "description": "Trial plugin: checks that one repository serves both Claude and Codex marketplaces.",
+  "author": {
+    "name": "Interventio Contextus"
+  },
+  "interface": {
+    "displayName": "Hello Catalog (trial)",
+    "shortDescription": "Trial plugin for the distribution repository layout.",
+    "developerName": "Interventio Contextus",
+    "category": "Productivity"
+  },
+  "skills": "./skills/"
+}
